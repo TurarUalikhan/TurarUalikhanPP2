@@ -1,0 +1,7 @@
+D:\PP2\Week1\Task1\A\A\bin\Debug\A.exe.config
+D:\PP2\Week1\Task1\A\A\bin\Debug\A.exe
+D:\PP2\Week1\Task1\A\A\bin\Debug\A.pdb
+D:\PP2\Week1\Task1\A\A\obj\Debug\A.csprojAssemblyReference.cache
+D:\PP2\Week1\Task1\A\A\obj\Debug\A.csproj.CoreCompileInputs.cache
+D:\PP2\Week1\Task1\A\A\obj\Debug\A.exe
+D:\PP2\Week1\Task1\A\A\obj\Debug\A.pdb

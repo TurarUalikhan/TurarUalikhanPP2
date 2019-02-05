@@ -12,19 +12,15 @@ namespace D
         {
             string v = Console.ReadLine();
             int val = int.Parse(v);
-            for (int i = 1; i <= val; i++)
+            
+            for (int i =0; i < val; i++)
             {
-                for (int j = 1; j <= i; j++)
-                {
-                    Console.Write("");
-                }
-                for (int k = 1; k <= i; k++)
+                for (int j = 0; j <= i; j++)
                 {
                     Console.Write("[*]");
                 }
-                Console.WriteLine("");
+                Console.WriteLine();
             }
-            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\bin\Debug\D.exe.config
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\bin\Debug\D.exe
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\bin\Debug\D.pdb
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\obj\Debug\D.csprojAssemblyReference.cache
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\obj\Debug\D.csproj.CoreCompileInputs.cache
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\obj\Debug\D.exe
+C:\Users\Turar\Desktop\PP2\Week1\Task4\D\D\obj\Debug\D.pdb

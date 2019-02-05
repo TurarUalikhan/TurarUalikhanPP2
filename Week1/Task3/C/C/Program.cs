@@ -13,14 +13,23 @@ namespace C
             string line1 = Console.ReadLine();
             string line2 = Console.ReadLine();
             string[] parts = line2.Split(new char[] { ' ' });
-            Console.WriteLine(parts.Length);
-            for (int i = 0; i < parts.Length; ++i)
+            int[] arr = new int[int.Parse(line1) * 2];
+            int cnt = -1;
+            for(int i = 0; i< parts.Length; i++)
             {
-                Console.Write(parts[i]);
-                Console.Write(" ");
-                Console.Write(parts[i]);
-                Console.Write(" ");
+                cnt++;
+                arr[cnt] = int.Parse(parts[i]);
+                cnt++;
+                arr[cnt] = int.Parse(parts[i]);
+                
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write(arr[i]);
+                Console.Write(' ');
             }
         }
+
+        
     }
 }

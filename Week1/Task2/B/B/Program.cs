@@ -10,7 +10,7 @@ namespace B
     {
         static void Main(string[] args)
         {
-            Student st = new Student(Console.ReadLine(), Console.ReadLine());
+            Student st = new Student(Console.ReadLine(), Console.ReadLine()); 
             Console.WriteLine(st.getName() + " " + st.getId() + " " + st.inc());
         }
     }

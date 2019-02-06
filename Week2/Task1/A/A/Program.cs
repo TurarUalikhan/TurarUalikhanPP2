@@ -8,28 +8,28 @@ namespace A
 {
     class Program
     {
-        static bool polindrome(string k)
+        static bool polindrome(string k) 
         {
-            int n = k.Length;
+            int n = k.Length; 
             for(int i = 0; i < n;i++)
             {
-                if(k[i] != k[n - i - 1])
+                if(k[i] != k[n - i - 1]) 
                 {
-                    return false;
+                    return false; 
                 }
             }
-            return true;
+            return true; 
         }
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Turar\Desktop\text.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Turar\Desktop\text.txt"); 
             string k = sr.ReadToEnd();
-            if (polindrome(k))
+            if (polindrome(k)) 
             {
-                Console.WriteLine("YES");
+                Console.WriteLine("YES"); 
             }else
             {
-                Console.WriteLine("NO");
+                Console.WriteLine("NO"); 
             }
         }
     }

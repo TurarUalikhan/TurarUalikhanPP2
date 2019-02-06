@@ -6,31 +6,31 @@ using System.Threading.Tasks;
 
 namespace B
 {
-    class Student
+    class Student 
     {
 
-        private string name;
+        private string name; 
         private string id;
-        private int yos;
+        private int yos; 
 
         public Student(string name, string id)
         {
-            this.name = name;
-            this.id = id;
+            this.name = name; 
+            this.id = id; 
             
         }
-        public string getName()
+        public string getName() 
         {
             return this.name;
         }
-        public string getId()
+        public string getId() 
         {
-            return this.id;
+            return this.id; 
 
         }
-        public int inc()
+        public int inc() 
         {
-            return ++yos;
+            return ++yos; 
         }
 
     }

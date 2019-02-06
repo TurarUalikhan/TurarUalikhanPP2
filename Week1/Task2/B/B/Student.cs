@@ -8,16 +8,29 @@ namespace B
 {
     class Student
     {
-        string name;
-        string gpa;
-        string year;
-        string id;
-        public Student(string n, string g, string i, string y)
+
+        private string name;
+        private string id;
+        private int yos;
+
+        public Student(string name, string id)
         {
-            name = n;
-            gpa = g;
-            id = i;
-            year = y;
+            this.name = name;
+            this.id = id;
+            
+        }
+        public string getName()
+        {
+            return this.name;
+        }
+        public string getId()
+        {
+            return this.id;
+
+        }
+        public int inc()
+        {
+            return ++yos;
         }
 
     }

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2C5BDAC7-09C8-47B3-A783-3BE8DF7B28EC}</ProjectGuid>
+    <ProjectGuid>{B5BC7DB6-C959-43BA-BC1C-E7C3069E4761}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>B</RootNamespace>
-    <AssemblyName>B</AssemblyName>
+    <RootNamespace>D</RootNamespace>
+    <AssemblyName>D</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

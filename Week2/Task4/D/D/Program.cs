@@ -10,8 +10,12 @@ namespace D
     {
         static void CCD(string path, string path1)
         {
-            string newpath = Path.Combine(path, "text.txt");
-            File.Create(newpath);
+            string FileName = "text.txt";
+            string newpath = Path.Combine(path, FileName);
+            string newpath1 = Path.Combine(path1, FileName);
+            StreamWriter sw = new StreamWriter(newpath);
+            sw.Write("asdasd");
+            sw.Close();
             File.Copy(newpath, path1);
             File.Delete(newpath);
         }

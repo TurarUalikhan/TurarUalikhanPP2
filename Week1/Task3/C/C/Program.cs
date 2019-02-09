@@ -12,7 +12,7 @@ namespace C
         {
             string line1 = Console.ReadLine(); //create line1 (number of elements in the array)
             string line2 = Console.ReadLine(); //create line2 (elements in the arra)s
-            string[] parts = line2.Split(new char[] { ' ' }); //assign splited element of line2 to the array parts
+            string[] parts = line2.Split(); //assign splited element of line2 to the array parts
             int[] arr = new int[int.Parse(line1) * 2]; // create an array that has 2x elements 
             int cnt = -1; //create cnt with value -1, so when we will increase it, it will start at 0
             for(int i = 0; i< parts.Length; i++) //cycle 

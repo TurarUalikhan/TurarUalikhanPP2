@@ -8,12 +8,12 @@ namespace A
 {
     class Program
     {
-        static bool polindrome(string k) 
+        static bool polindrome(string k) //создаем метод polindrome для проверки текста
         {
             int n = k.Length; 
             for(int i = 0; i < n;i++)
             {
-                if(k[i] != k[n - i - 1]) 
+                if(k[i] != k[n - i - 1]) //если не равен противоположному от себя числу то не полиндром(false)
                 {
                     return false; 
                 }
@@ -22,14 +22,14 @@ namespace A
         }
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Turar\Desktop\text.txt"); 
+            StreamReader sr = new StreamReader(@"C:\Users\Turar\Desktop\text.txt"); //путь к файлу
             string k = sr.ReadToEnd();
             if (polindrome(k)) 
             {
-                Console.WriteLine("YES"); 
+                Console.WriteLine("YES"); //Если проходит то выдает "YES"
             }else
             {
-                Console.WriteLine("NO"); 
+                Console.WriteLine("NO"); //в другом случае "NO"
             }
         }
     }

@@ -17,7 +17,7 @@ namespace D
             sw.Write("asdasd");//запись нового текста к новому файлу
             sw.Close();
             File.Copy(newpath, path1);//копируем данные из newpath в path1
-            File.Delete(newpath);//удаялем пред файл
+            //File.Delete(newpath);//удаялем пред файл
         }
         static void Main(string[] args)
         {

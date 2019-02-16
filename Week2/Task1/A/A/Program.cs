@@ -31,6 +31,7 @@ namespace A
             {
                 Console.WriteLine("NO"); //в другом случае "NO"
             }
+            sr.Close();
         }
     }
 }

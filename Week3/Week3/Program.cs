@@ -35,7 +35,7 @@ namespace example
                 {
                     Console.BackgroundColor = ConsoleColor.Black;//фон черный
                 }
-                Console.WriteLine(i.ToString() + "." + fsis[i].Name);//переделываем все в строку
+                Console.WriteLine(i+1+ "." + fsis[i].Name);//переделываем все в строку
             }
         }
 
@@ -77,6 +77,7 @@ namespace example
                     }
                     if (fsis[cursor].GetType() == typeof(FileInfo))//если файл то показывает данные файла
                     {
+                        Console.BackgroundColor = ConsoleColor.Black;
                         Console.Clear();
                         StreamReader sr = new StreamReader(fsis[cursor].FullName);
                         Console.WriteLine(sr.ReadToEnd());
@@ -109,6 +110,7 @@ namespace example
                         }
                         else
                         {
+                            Console.BackgroundColor = ConsoleColor.Black;
                             Console.Clear();
                             Console.WriteLine("If you want to delete then press Y if not press any other key");//спрашиваем если внутри есть что то
                             ConsoleKeyInfo k = Console.ReadKey();
@@ -132,6 +134,7 @@ namespace example
                 {
                     if (fsis[cursor].GetType() == typeof(DirectoryInfo))//создаем новую папку с заданым именем и перекидываем туда все файлы а старую удалаяем
                     {
+                        Console.BackgroundColor = ConsoleColor.Black;
                         Console.Clear();
                         string s = Console.ReadLine();
                         string fileN = fsis[cursor].Name;
@@ -147,6 +150,7 @@ namespace example
                     }
                     if (fsis[cursor].GetType() == typeof(FileInfo))//тоже делаем для файла
                     {
+                        Console.BackgroundColor = ConsoleColor.Black;
                         Console.Clear();
                         string s = Console.ReadLine();
                         string fileN = fsis[cursor].Name;

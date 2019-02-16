@@ -35,7 +35,7 @@ namespace example
                 {
                     Console.BackgroundColor = ConsoleColor.Black;//фон черный
                 }
-                Console.WriteLine(i+1+ "." + fsis[i].Name);//переделываем все в строку
+                Console.WriteLine(i+1+ "."+' '+ fsis[i].Name);//переделываем все в строку
             }
         }
 
